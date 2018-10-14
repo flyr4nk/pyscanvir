@@ -8,3 +8,14 @@ virus the file will be moved to a given quarentine directory. If everything goes
 fine the file will be moved to a given destination directory.
 
 It could be integrated in a NAS (Network Attached Storage) that check every new file before share it.
+
+
+
+### USAGE:
+```sh
+pyscanvir.py [-o|--origin <directory_name>] [-d|--destination <directory_name>] [-q|--quarentine] <directory_name>
+```
+### Requisites:
+
+pyinotify
+requests
